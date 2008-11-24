@@ -1,0 +1,6 @@
+#summary Home page for jQuery dyndatetime widget.
+
+= Introduction =
+
+Please see the main javascript file for documentation for now.  
+[http://code.google.com/p/dyndatetime/source/browse/trunk/dyndatetime/src/jquery.dynDateTime.js]
