@@ -3,7 +3,7 @@
 == Setup ==
 Like any jQuery plugin, you will  need to include the main jQuery script and the plugin script.  In addition, you will also need a language script (/lang/*) and a calendar CSS file (/css/*).  
 
-{{{<script type="text/javascript" src="dont/forget/to/have/jquery-xxx.js"></script>
+{{{ <script type="text/javascript" src="dont/forget/to/have/jquery-xxx.js"></script>
 
 <!-- plugin code -->
 <script type="text/javascript" src="src/jquery.dynDateTime.js"></script>
@@ -11,7 +11,7 @@ Like any jQuery plugin, you will  need to include the main jQuery script and the
 <script type="text/javascript" src="lang/calendar-en.js"></script>
 
 <!-- include one of the CSS styles, or make your own -->
-<link rel="stylesheet" type="text/css" media="all" href="css/calendar-win2k-cold-1.css"/>}}}
+<link rel="stylesheet" type="text/css" media="all" href="css/calendar-win2k-cold-1.css"/> }}}
 
 
 
