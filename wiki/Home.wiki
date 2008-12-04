@@ -47,7 +47,7 @@ Easy !
 || *Key* || *Default value* || *Description* ||
 || displayArea || "" || Relative jQuery [http://docs.jquery.com/Traversing traverse] method(s); find *first* matched element and show the date in it. eg ".siblings('div.dispArea')"  ||
 || button || "" || Relative jQuery [http://docs.jquery.com/Traversing traverse] method(s); find *first* matched element and bind show/hide event for calendar. eg ".siblings('button')" ||
-|| flat || "" || (String) relative jQuery [http://docs.jquery.com/Traversing  traverse] method(s); find first matched element and place the flat calendar within. eg ".parent().siblings('div.flatCal')" ||
+|| flat || "" || (String) relative jQuery [http://docs.jquery.com/Traversing  traverse] method(s); find *first* matched element (Should be a block element) and place the flat calendar within. eg ".parent().siblings('div.flatCal')" ||
 || eventName || "click" || event that will trigger the calendar popup, no "on" prefix ||
 || ifFormat || "%Y/%m/%d" || date format that will be stored in the input field ||
 || daFormat || "%Y/%m/%d" || the date format that will be used to display the date in displayArea ||
