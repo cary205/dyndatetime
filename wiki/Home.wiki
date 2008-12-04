@@ -12,7 +12,8 @@ Like any jQuery plugin, you will  need to include the main jQuery script and the
 <script type="text/javascript" src="lang/calendar-en.js"></script>
 
 <!-- include one of the CSS styles, or make your own -->
-<link rel="stylesheet" type="text/css" media="all" href="css/calendar-win2k-cold-1.css"/> }}}
+<link rel="stylesheet" type="text/css" media="all" href="css/calendar-win2k-cold-1.css"/> 
+}}}
 
 
 
