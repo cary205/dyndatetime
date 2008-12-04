@@ -30,8 +30,8 @@ Easy !
 == Options ==
 || *Key* || *Default value* || *Description* ||
 || displayArea || "" || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find *first* matched element and show the date in it. eg ".siblings('div.dispArea')"  ||
-|| button || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find *first* matched element and bind show/hide event for calendar. eg ".siblings('button')" ||
-|| flat || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find first matched element and place the flat calendar within. eg ".parent().siblings('div.flatCal')" ||
+|| button || "" || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find *first* matched element and bind show/hide event for calendar. eg ".siblings('button')" ||
+|| flat || "" || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find first matched element and place the flat calendar within. eg ".parent().siblings('div.flatCal')" ||
 || inputField || null, ||
 || displayArea || null, ||
 || button || null, ||
