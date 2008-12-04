@@ -57,8 +57,37 @@ Easy !
 || multiple || null, || Allow multiple dates - TODO ||
 || debug || false || Write debug info to firebug console ||
 
-== Align ==
+== Date format syntax ==
+|| *Symbol*  || *Meaning*  || 
+|| %a || abbreviated weekday name || 
+|| %A || full weekday name || 
+|| %b || abbreviated month name || 
+|| %B || full month name || 
+|| %C || century number || 
+|| %d || the day of the month ( 00 .. 31 ) || 
+|| %e || the day of the month ( 0 .. 31 ) || 
+|| %H || hour ( 00 .. 23 ) || 
+|| %I || hour ( 01 .. 12 ) || 
+|| %j || day of the year ( 000 .. 366 ) || 
+|| %k || hour ( 0 .. 23 ) || 
+|| %l || hour ( 1 .. 12 ) || 
+|| %m || month ( 01 .. 12 ) || 
+|| %M || minute ( 00 .. 59 ) || 
+|| %n || a newline character || 
+|| %p || ``PM'' or ``AM'' || 
+|| %P || ``pm'' or ``am'' || 
+|| %S || second ( 00 .. 59 ) || 
+|| %s || number of seconds since Epoch (since Jan 01 1970 00:00:00 UTC) || 
+|| %t || a tab character || 
+|| %U, %W, %V || the week number || 
+|| %u || the day of the week ( 1 .. 7, 1 = MON ) || 
+|| %w || the day of the week ( 0 .. 6, 0 = SUN ) || 
+|| %y || year without the century ( 00 .. 99 ) || 
+|| %Y || year including the century ( ex. 1979 ) || 
+|| %% || a literal % character  || 
 
+== Align ==
+The `align` option is a 2 character string indicating where to place the popup.
 ==== Vertical alignment ====
 The first character in `align` can take one of the following values:
 
@@ -69,7 +98,7 @@ The first character in `align` can take one of the following values:
 || B || completely below the element (top margin of the calendar aligned to the bottom margin of the element). ||
 
 ==== Horizontal alignment ====
-The second character in ``align'' can take one of the following values:
+The second character in `align` can take one of the following values:
 || L || completely to the left of the reference element (right margin of the calendar aligned to the left margin of the element). ||
 || l || to the left of the element but may overlap it (left margin of the calendar aligned to the left margin of the element).||
 || c || horizontally centered to the element. Might overlap it, depending on the vertical alignment. ||
