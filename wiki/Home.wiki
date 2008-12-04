@@ -3,7 +3,8 @@
 == Setup ==
 Like any jQuery plugin, you will  need to include the main jQuery script and the plugin script.  In addition, you will also need a language script from /lang/  and a calendar CSS file from /css/ .  
 
-{{{ <script type="text/javascript" src="dont/forget/to/have/jquery-xxx.js"></script>
+{{{
+<script type="text/javascript" src="dont/forget/to/have/jquery-xxx.js"></script>
 
 <!-- plugin code -->
 <script type="text/javascript" src="src/jquery.dynDateTime.js"></script>
