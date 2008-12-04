@@ -28,37 +28,36 @@ jQuery( "input.dateField" ).dynDateTime(
 Easy !
 
 == Options ==
-
 || *Key* || *Default value* || *Description* ||
-|| displayArea || "" || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find *first* matched element and show the date in it. eg ".siblings('div.dispArea')"  
-|| button || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find *first* matched element and bind show/hide event for calendar. eg ".siblings('button')"
-|| flat || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find first matched element and place the flat calendar within. eg ".parent().siblings('div.flatCal')"
-|| inputField || null,
-|| displayArea || null,
-|| button || null,
-|| eventName || "click" || event that will trigger the calendar, without the "on" prefix 
-|| ifFormat || "%Y/%m/%d" || date format that will be stored in the input field
-|| daFormat || "%Y/%m/%d" || the date format that will be used to display the date in displayArea
-|| singleClick || true || (true/false) whether the calendar is in single click mode or not (default: true)
-|| disableFunc || null,
-|| dateStatusFunc || null || function that receives a JS Date object and should return true if that date has to be disabled in the calendar, or String for CSS classes.
-|| dateText || null,
-|| firstDay || null || numeric: 0 to 6.  "0" means display Sunday first, "1" means display Monday first, etc.
-|| align || "Br" || alignment (default: "Br"); if you don't know what's this see the calendar documentation
-|| range || [1900, 2999] || array with 2 elements.  Default: [1900, 2999] -- the range of years available
-|| weekNumbers || true || (true/false) if it's true (default) the calendar will display week numbers
-|| flat || null,
-|| flatCallback || null || function that receives a JS Date object and returns an URL to point the browser to (for flat calendar)
-|| onSelect ||  null || function that gets called when a date is selected.  You don't _have_ to supply this (the default is generally okay)
-|| onClose || null || function that gets called when the calendar is closed.  [default]
-|| onUpdate ||  null || function that gets called after the date is updated in the input field.  Receives a reference to the calendar.
-|| date || null || the date that the calendar will be initially displayed to
-|| showsTime || false || default: false; if true the calendar will include a time selector
-|| timeFormat || "24" || the time format; can be "12" or "24", default is "12"
-|| electric || true || if true (default) then given fields/date areas are updated for each move; otherwise they're updated only on close
-|| step || 2 || configures the step of the years in drop-down boxes; default: 2
-|| position || null || configures the calendar absolute position; default: null
-|| cache || false || if "true" (but default: "false") it will reuse the same calendar object, where possible
-|| showOthers || false || if "true" (but default: "false") it will show days from other months too
-|| multiple || null,
-|| debug || false || if "true" (but default: "false") write to firebug console
+|| displayArea || "" || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find *first* matched element and show the date in it. eg ".siblings('div.dispArea')"  ||
+|| button || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find *first* matched element and bind show/hide event for calendar. eg ".siblings('button')" ||
+|| flat || (String) relative jQuery [traverse|http://docs.jquery.com/Traversing] method(s); find first matched element and place the flat calendar within. eg ".parent().siblings('div.flatCal')" ||
+|| inputField || null, ||
+|| displayArea || null, ||
+|| button || null, ||
+|| eventName || "click" || event that will trigger the calendar, without the "on" prefix ||
+|| ifFormat || "%Y/%m/%d" || date format that will be stored in the input field ||
+|| daFormat || "%Y/%m/%d" || the date format that will be used to display the date in displayArea ||
+|| singleClick || true || (true/false) whether the calendar is in single click mode or not (default: true) ||
+|| disableFunc || null, ||
+|| dateStatusFunc || null || function that receives a JS Date object and should return true if that date has to be disabled in the calendar, or String for CSS classes. ||
+|| dateText || null, ||
+|| firstDay || null || numeric: 0 to 6.  "0" means display Sunday first, "1" means display Monday first, etc. ||
+|| align || "Br" || alignment (default: "Br"); if you don't know what's this see the calendar documentation ||
+|| range || [1900, 2999] || array with 2 elements.  Default: [1900, 2999] -- the range of years available ||
+|| weekNumbers || true || (true/false) if it's true (default) the calendar will display week numbers ||
+|| flat || null, ||
+|| flatCallback || null || function that receives a JS Date object and returns an URL to point the browser to (for flat calendar) ||
+|| onSelect ||  null || function that gets called when a date is selected.  You don't _have_ to supply this (the default is generally okay) ||
+|| onClose || null || function that gets called when the calendar is closed.  [default] ||
+|| onUpdate ||  null || function that gets called after the date is updated in the input field.  Receives a reference to the calendar. ||
+|| date || null || the date that the calendar will be initially displayed to ||
+|| showsTime || false || default: false; if true the calendar will include a time selector ||
+|| timeFormat || "24" || the time format; can be "12" or "24", default is "12" ||
+|| electric || true || if true (default) then given fields/date areas are updated for each move; otherwise they're updated only on close ||
+|| step || 2 || configures the step of the years in drop-down boxes; default: 2 ||
+|| position || null || configures the calendar absolute position; default: null ||
+|| cache || false || if "true" (but default: "false") it will reuse the same calendar object, where possible ||
+|| showOthers || false || if "true" (but default: "false") it will show days from other months too ||
+|| multiple || null, ||
+|| debug || false || if "true" (but default: "false") write to firebug console ||
