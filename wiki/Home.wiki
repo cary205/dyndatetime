@@ -1,9 +1,9 @@
-#summary jQuery dyndatetime widget Documentation
+= jQuery dyndatetime widget Documentation =
 
 
 
 
-= Usage pattern =
+== Usage pattern ==
 To get a input field have date support using the default options, the usage is simple; first create a textbox:
 
 {{{
@@ -14,17 +14,21 @@ Now apply jQuery dyndatetime.  This should be done _after_ the page loads the DO
 jQuery( "input.dateField" ).dynDateTime();
 }}}
 
-And you are done!
+And you are done.  If you want to configure with options:
+{{{
+jQuery( "input.dateField" ).dynDateTime(
+  showsTime: true,
+  ifFormat: "%Y/%m/%d-%H:%M",
+  button: ".next()" //next sibling to input field
+);
+}}}
 
-	The options (and plenty of code) are taken from the calendar-setup.js, and most options (all, except top 3 listed below)
-	are unchanged from the original Dynarch code. For full docs, see:
-		
-		http://www.dynarch.com/demos/jscalendar/doc/html/reference.html#node_sec_2.3
+Easy !
 
+== Options ==
 
-	Changed opts  | description
-	-------------------------------------------------------------------------------------------------
-	displayArea   | (String) relative jQuery traverse method(s); find first element and show the date in it. eg ".siblings('div.dispArea')"  
+|| *Key* || *Default value* || *Description* ||
+|| displayArea ||   | (String) relative jQuery traverse method(s); find first element and show the date in it. eg ".siblings('div.dispArea')"  
 	button        | (String) relative jQuery traverse method(s); find first element and bind show/hide event for calendar. eg ".siblings('button')"
 	flat          | (String) relative jQuery traverse method(s); find first element and place the flat calendar within. eg ".parent().siblings('div.flatCal')"
 
