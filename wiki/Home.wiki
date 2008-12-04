@@ -1,7 +1,7 @@
 = jQuery dyndatetime widget Documentation =
 
 == Setup ==
-Like any jQuery plugin, you will  need to include the main jQuery script and the plugin script.  In addition, you will also need a language script (/lang/*) and a calendar CSS file (/css/*).  
+Like any jQuery plugin, you will  need to include the main jQuery script and the plugin script.  In addition, you will also need a language script ( /lang/* ) and a calendar CSS file ( /css/* ).  
 
 {{{ <script type="text/javascript" src="dont/forget/to/have/jquery-xxx.js"></script>
 
