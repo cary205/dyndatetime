@@ -30,7 +30,7 @@ Now apply jQuery dyndatetime.  This should be done _after_ the page loads the DO
 jQuery( "input.dateField" ).dynDateTime();
 }}}
 
-And you are done.  If your jQuery string matches multiple inputs, they will *all*   
+And you are done.  If your jQuery string matches multiple inputs, they will *all* have independent date pickers.  
 
 If you want to configure with options:
 {{{
