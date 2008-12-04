@@ -56,3 +56,22 @@ Easy !
 || showOthers || false ||Show days from other months too ? ||
 || multiple || null, || Allow multiple dates - TODO ||
 || debug || false || Write debug info to firebug console ||
+
+== Align ==
+
+==== Vertical alignment ====
+The first character in `align` can take one of the following values:
+
+|| T || completely above the reference element (bottom margin of the calendar aligned to the top margin of the element). ||
+|| t || above the element but may overlap it (bottom margin of the calendar aligned to the bottom margin of the element). ||
+|| c || the calendar displays vertically centered to the reference element. It might overlap it (that depends on the horizontal alignment).||
+|| b || below the element but may overlap it (top margin of the calendar aligned to the top margin of the element).||
+|| B || completely below the element (top margin of the calendar aligned to the bottom margin of the element). ||
+
+==== Horizontal alignment ====
+The second character in ``align'' can take one of the following values:
+|| L || completely to the left of the reference element (right margin of the calendar aligned to the left margin of the element). ||
+|| l || to the left of the element but may overlap it (left margin of the calendar aligned to the left margin of the element).||
+|| c || horizontally centered to the element. Might overlap it, depending on the vertical alignment. ||
+|| r || to the right of the element but may overlap it (right margin of the calendar aligned to the right margin of the element).||
+|| R  || completely to the right of the element (left margin of the calendar aligned to the right margin of the element).||
