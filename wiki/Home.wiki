@@ -34,11 +34,11 @@ And you are done.  If your jQuery string matches multiple inputs, they will *all
 
 If you want to configure with options:
 {{{
-jQuery( "input.dateField" ).dynDateTime(
+jQuery( "input.dateField" ).dynDateTime({
   showsTime: true,
   ifFormat: "%Y/%m/%d-%H:%M",
   button: ".next()" //next sibling to input field
-);
+});
 }}}
 
 Easy !
